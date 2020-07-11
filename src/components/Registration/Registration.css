@@ -1,0 +1,55 @@
+.registration-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.registration-container .registration-title{
+    font-size: 22px;
+    width: 100%;
+    color: #2f2f67;
+    margin:0 0 0.5em 0;
+    line-height: 16px;
+}
+
+.registration-container .registration-form{
+    width: 100%;
+}
+
+.registration-container .registration-form label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ca7106;
+}
+
+.registration-container .registration-form input{
+    display: block;
+    padding:0.6em 1em;
+    margin-bottom: 0.8em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.registration-container .btn-wrapper{
+    margin-top: 1em;
+}
+
+.registration-container .btn{
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.registration-container .btn.btn-cancel{
+    background-color: #ca7106;
+}
+
+.registration-container .btn.btn-submit{
+    background-color: #424267;
+    margin-left: 0.5em;
+}
+

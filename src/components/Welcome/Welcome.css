@@ -1,0 +1,17 @@
+.welcome-msg-wrapper{
+    background-color: #b1c8d8fa;
+    font-size: 14px;
+    text-align: left;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-right: 20px;
+}
+
+.welcome-msg-wrapper .name{
+    font-size: 16px;
+    margin: 0;
+}
+
+.welcome-msg-wrapper .welcome-message{
+    margin: 0 0 0 0.5em;
+}

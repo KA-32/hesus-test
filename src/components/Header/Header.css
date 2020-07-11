@@ -1,0 +1,38 @@
+.app-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    border-bottom:1px solid gray;
+    background-color: #2f2f67;   
+}
+
+.app-header .app-logo{
+    width: 100px;
+    height: auto;
+}
+
+.app-header .search-input{
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 1px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ca7106;
+}
+
+.app-header .search-input:focus{
+    border: none;
+    outline: none;
+}
+
+.app-header .search-input::placeholder,.app-header .search-input::-webkit-input-placeholder{
+    color: #ca7106;
+}
+
+@media screen  and (max-width:720px){
+    .app-header .app-logo{
+        width:66px;
+    }
+}
